@@ -1,11 +1,13 @@
 Ball b;                //declare a new ball called b
-
+Ball b2;
 void setup() {
-  size(1600, 1200);
-  b = new Ball();      //initialize b as a new object of the Ball class
+  size(800, 600);
+  b = new Ball();
+  b2 = new Ball(); 
 }
 
 void draw() {
   background(0);
-  b.display();         //call b's display() method
+  b.run();   //call b's display() method
+  b2.run();
 }
